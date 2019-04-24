@@ -2,7 +2,7 @@ package pri.growup.interceptor;
 
 
 import pri.growup.constants.GrowUpConstants;
-import pri.growup.persistence.BaseExample;
+import pri.growup.base.persistence.BaseExample;
 import pri.growup.util.ReflectUtils;
 
 import org.apache.ibatis.executor.statement.RoutingStatementHandler;
@@ -13,8 +13,6 @@ import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
 import java.util.Properties;
-
-import com.fasterxml.jackson.databind.ser.Serializers;
 
 /**
  * The Class SqlAddPageInterceptor

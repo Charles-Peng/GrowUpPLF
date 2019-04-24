@@ -1,7 +1,7 @@
 package pri.growup.persistence.dto;
 
 import java.util.Date;
-import pri.growup.persistence.BaseDto;
+import pri.growup.base.persistence.BaseDto;
 
 public class GrowUpUserIdentity extends BaseDto {
     /**

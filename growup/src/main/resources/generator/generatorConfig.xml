@@ -29,7 +29,7 @@
                             targetProject="src/main/java">
             <property name="enableSubPackages" value="false" />
             <property name="trimStrings" value="true" />
-            <property name="rootClass" value="pri.growup.persistence.BaseDto" />
+            <property name="rootClass" value="pri.growup.base.persistence.BaseDto" />
         </javaModelGenerator>
 
         <!-- *Mapper.xml 文件的位置 -->
@@ -61,6 +61,8 @@
         <table tableName="grow_up_vlog" enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
                enableUpdateByExample="true"/>
         <table tableName="grow_up_vlog_main" enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
+               enableUpdateByExample="true"/>
+        <table tableName="grow_up_common_id" enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
                enableUpdateByExample="true"/>
     </context>
 

@@ -1,6 +1,6 @@
 package pri.growup.persistence.dto;
 
-import pri.growup.persistence.BaseExample;
+import pri.growup.base.persistence.BaseExample;
 
 import java.util.ArrayList;
 import java.util.Date;

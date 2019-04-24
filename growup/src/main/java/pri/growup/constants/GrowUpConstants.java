@@ -14,4 +14,6 @@ public class GrowUpConstants {
     public static final String BLANK = " ";
 
     public static final String COMMA = ",";
+
+    public static final String EXCEPTION_MESSAGE_CN = "exceptionMessage-CN";
 }

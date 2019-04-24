@@ -1,4 +1,4 @@
-package pri.growup.persistence;
+package pri.growup.base.persistence;
 
 /**
  * The Class BaseExample
